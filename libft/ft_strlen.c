@@ -6,20 +6,18 @@
 /*   By: bbenidar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/05 14:13:19 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/05 14:28:05 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/08 10:04:06 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
 
-int	ft_strlen(char *str)
+size_t	ft_strlen(const char *str)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (str[i] != '\0')
-	{
 		i++;
-	}
 	return (i);
 }
