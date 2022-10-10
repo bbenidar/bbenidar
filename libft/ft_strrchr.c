@@ -1,24 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bbenidar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/09 22:31:52 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/09 22:31:55 by bbenidar         ###   ########.fr       */
+/*   Created: 2022/10/10 10:58:11 by bbenidar          #+#    #+#             */
+/*   Updated: 2022/10/10 10:58:29 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
-#include<stdio.h>
-
-char *ft_strchr(const char *s, int c)
+#include <stdio.h>
+char *ft_strrchr(const char *s, int c)
 {
-    while(*s && *s != c)
+    const char *ini ;
+    ini = s;
+    while (*s)
         s++;
+    while (*ini != *s && *s != c)
+        s--;
     if (*s == c)
-        return  ((char*)s);
+        return ((char *)s);
     return (0);
 }
+
