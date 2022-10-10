@@ -9,14 +9,14 @@
 /*   Updated: 2022/10/06 19:31:16 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<stdio.h>
+#include"libft.h"
 
-void	*memset(void *b, int c, size_t len)
+void	*ft_memset(void *b, int c, size_t len)
 {
 	unsigned char	*p;
 
 	p = ((unsigned char *)b);
-	while (*p && len > 0)
+	while (len > 0)
 	{
 		*p = c;
 		len--;

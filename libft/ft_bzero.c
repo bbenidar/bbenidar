@@ -9,24 +9,10 @@
 /*   Updated: 2022/10/06 18:43:59 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<unistd.h>
-
-void	*memset(void *b, int c, size_t len)
-{
-	unsigned char	*p;
-
-	p = ((unsigned char *)b);
-	while (*p && len > 0)
-	{
-		*p = c;
-		len--;
-		p++;
-	}
-	return (b);
-}
+#include"libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {
 	if (n != 0)
-		memset(s, '\0', n);
+		ft_memset(s, '\0', n);
 }
