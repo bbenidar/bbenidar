@@ -6,7 +6,7 @@
 #    By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/09 14:46:36 by bbenidar          #+#    #+#              #
-#    Updated: 2022/10/10 18:59:47 by bbenidar         ###   ########.fr        #
+#    Updated: 2022/10/12 14:43:19 by bbenidar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,9 +30,13 @@ SRC =   ft_bzero.c    \
 		ft_strrchr.c  \
 		ft_tolower.c  \
 		ft_toupper.c  \
-		ft_memccpy.c  \
 		ft_memchr.c   \
-		ft_memcmp.c  \
+		ft_memcmp.c   \
+		ft_strnstr.c  \
+		ft_atoi.c     \
+		ft_calloc.c  \
+		ft_strdup.c  \
+		
 		
 OBJ = ${SRC:.c=.o}
 

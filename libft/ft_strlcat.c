@@ -6,7 +6,7 @@
 /*   By: bbenidar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 14:25:07 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/08 17:39:11 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/12 15:59:58 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include"libft.h"
@@ -17,6 +17,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	size_t	j;
 	size_t	dlen;
 	size_t	jlen;
+
 	if ((!dst && !src) || dstsize == 0)
 		return (0);
 	i = 0;
