@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 12:22:47 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/12 16:22:42 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/17 17:41:08 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 //----------------------------------HEADERS------------------------------//
 # include <unistd.h>
 # include <stdlib.h> //using in malloc and size_t
+# include <stdio.h>
 
 //----------------------- FONCTION PROTOTYPE-------------------------------//
 size_t			ft_strlcat(char *dst, const char *src, size_t dstsize);
@@ -41,4 +42,8 @@ char			*ft_strnstr(const char *haystack, const char *needle,
 int				ft_atoi(const char *str);
 char			*ft_strdup(const char *s1);
 void			*ft_calloc(size_t count, size_t size);
+char			*ft_strjoin(char const *s1, char const *s2);
+char			*ft_substr(char const *s, unsigned int start,
+					size_t len);
+char			**ft_split(char const *s, char c);
 #endif

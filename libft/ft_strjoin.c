@@ -1,34 +1,47 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strnstr.c                                       :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/10 22:34:56 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/14 12:42:02 by bbenidar         ###   ########.fr       */
+/*   Created: 2022/10/13 20:50:52 by bbenidar          #+#    #+#             */
+/*   Updated: 2022/10/17 21:14:25 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	size_t	i;
-	size_t	j;
+	char	*p;
+	int		i;
+	int		j;
 
+	if (!s1 || !s2)
+		return (0);
+	j = 0;
 	i = 0;
-	if (needle[0] == '\0')
-		return ((char *)haystack);
-	while (len > i)
+	p = (char *)malloc(sizeof(s1) * (ft_strlen(s1) + ft_strlen(s2) + 1));
+	if (!p)
+		return (NULL);
+	while (s1[i])
 	{
-		j = 0;
-		while (haystack[i + j] == needle[j] && haystack[i + j] != '\0'
-			&& needle != '\0' && i + j < len)
-			j++;
-		if (j == ft_strlen(needle))
-			return (((char *)haystack) + i);
+		p[i] = s1[i];
 		i++;
 	}
-	return (0);
+	while (s2[j])
+	{
+		p[i] = s2[j];
+		j++;
+		i++;
+	}
+	p[i] = '\0';
+	return (p);
 }
+// int main()
+// {
+//     char s1[] = "brahim ";
+//     char s2[] = "benidar";
+//     printf("%s",ft_strjoin(s1,s2));
+// }

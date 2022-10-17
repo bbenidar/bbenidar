@@ -6,13 +6,13 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 11:20:14 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/12 15:16:20 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/17 21:11:11 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_sing(const char *str, int *hi)
+static int	ft_sing(const char *str, int *hi)
 {
 	int	sign;
 	int	i;
@@ -60,7 +60,7 @@ int	ft_atoi(const char *str)
 }
 // int main()
 // {
-//     printf("%d\n",ft_atoi("-294967296"));
+//     printf("%d\n",ft_atoi("29496755554554454545296"));
 //     printf("%d\n",atoi("-294967296"));
-//     printf("%d",atoi("-999999999999"));
+//     printf("%d",atoi("-999999933333333399999"));
 // }

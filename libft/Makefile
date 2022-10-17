@@ -6,15 +6,15 @@
 #    By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/09 14:46:36 by bbenidar          #+#    #+#              #
-#    Updated: 2022/10/12 14:43:19 by bbenidar         ###   ########.fr        #
+#    Updated: 2022/10/17 14:06:52 by bbenidar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 CC	= gcc
 FLAGS = -Wall -Wextra -Werror
-SRC =   ft_bzero.c    \
-		ft_isalnum.c  \
+SRC =   ft_bzero.c    ft_strtrim.c	\
+		ft_isalnum.c  ft_split.c	\
 		ft_isalpha.c  \
 		ft_isascii.c  \
 		ft_isdigit.c  \
@@ -36,7 +36,7 @@ SRC =   ft_bzero.c    \
 		ft_atoi.c     \
 		ft_calloc.c  \
 		ft_strdup.c  \
-		
+		ft_substr.c   ft_strjoin.c  \
 		
 OBJ = ${SRC:.c=.o}
 
