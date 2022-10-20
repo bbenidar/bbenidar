@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 12:22:47 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/17 17:41:08 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/20 12:57:52 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,8 @@ char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_substr(char const *s, unsigned int start,
 					size_t len);
 char			**ft_split(char const *s, char c);
+char			*ft_itoa(int n);
+void			ft_striteri(char *s, void (*f)(unsigned int,char*));
+char 			*ft_strmapi(char const *s, char (*f)(unsigned
+				int, char));
 #endif
