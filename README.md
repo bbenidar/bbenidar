@@ -1,7 +1,3 @@
-- 👋 Hi, I’m @bbenidar
-- brahim benidar
-- 21 yrold
-- software developer
-- 📫 How to reach me bahmmokmnakt@gmail.com
+<a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/binary/bbenidar" alt="bbenidar's 42 stats" /></a>
 
 
