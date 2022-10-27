@@ -6,75 +6,85 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 14:46:05 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/17 21:21:44 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/25 20:57:23 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 static int	lklmat(char const *s, char c)
 {
 	int	i;
 	int	j;
+	int	b;
 
 	i = 0;
 	j = 0;
-	while (*s)
+	b = 0;
+	while (s[b])
 	{
-		if (*s != c && j == 0)
+		if (s[b] != c && j == 0)
 		{
 			j = 1;
 			i++;
 		}
-		else if (*s == c)
+		else if (s[b] == c)
 			j = 0;
-		s++;
+		b++;
 	}
 	return (i);
 }
 
-static char	*tapi_lclmat(char const *s, int start, int end)
+static int	count_split(char const *s, char c)
 {
-	int		i;
-	char	*tap;
+	int	i;
 
 	i = 0;
-	tap = (char *)malloc(sizeof(char) * ((end + 1) - start));
-	while (start < end)
+	while (s[i] != '\0' && s[i] != c)
+		i++;
+	return (i);
+}
+
+static char	**free_splits(char **split)
+{
+	int	i;
+
+	i = 0;
+	while (split[i])
 	{
-		tap[i] = s[start];
-		start++;
+		free(split[i]);
 		i++;
 	}
-	tap[i] = 0;
-	return (tap);
+	free(split);
+	return (split);
 }
 
 char	**ft_split(char const *s, char c)
 {
 	char	**p;
 	size_t	i;
-	int		awdi;
-	int		j;
 
-	j = 0;
 	i = 0;
-	awdi = -1;
-	if (s == 0)
+	if (!s)
 		return (0);
-	p = malloc(sizeof(*p) * lklmat(s, c));
+	p = malloc(sizeof(char *) * (lklmat(s, c) + 1));
 	if (!p)
 		return (0);
-	while (i <= ft_strlen(s))
+	while (*s)
 	{
-		if (s[i] != c && awdi < 0)
-			awdi = i;
-		else if ((s[i] == c || i == ft_strlen(s)) && awdi >= 0)
+		while (*s && (*s == c))
+			s++;
+		if (*s)
 		{
-			p[j++] = tapi_lclmat(s, awdi, i);
-			awdi = -1;
+			p[i] = ft_substr(s, 0, count_split(s, c));
+			if (!p[i])
+				return (free_splits(p));
+			i++;
 		}
-		i++;
+		while (*s && (*s != c))
+			s++;
 	}
+	p[i] = 0;
 	return (p);
 }

@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 13:19:49 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/17 17:59:24 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/25 15:10:00 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ static int	ft_start(char const *s1, char const *set)
 	size_t	i;
 	size_t	start;
 
-	i = 0;
 	start = 0;
 	while (s1[start])
 	{
@@ -51,9 +50,7 @@ static int	ft_end(char const *s1, char const *set)
 		{
 			i++;
 			if (i == ft_strlen(set))
-			{
-				return (end);
-			}
+				return (end + 1);
 		}
 		end--;
 	}
@@ -68,20 +65,21 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	start;
 	size_t	end;
 
-	i = 0;
-	if (!s1 || !set)
-		return (0);
+	if (!*s1)
+		return (ft_strdup(""));
+	if (!*set)
+		return (ft_strdup(s1));
 	start = ft_start(s1, set);
 	end = ft_end(s1, set);
 	if (start == 0 && end == ft_strlen(s1) - 1)
 		return (ft_strdup(s1));
 	if (end - start == 0)
-		return ("");
-	p = (char *)malloc(sizeof(*p) * ((end + 2) - start));
+		return (ft_strdup(""));
+	p = (char *)malloc(sizeof(*s1) * (end + 1 - start));
 	if (!p)
 		return (0);
 	i = 0;
-	while (start <= end)
+	while (start < end)
 		p[i++] = s1[start++];
 	p[i] = 0;
 	return (p);
@@ -90,5 +88,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 // {
 //     char s1[] = "brahimbenm";
 //     char s2[] = "bmr";
-//     printf("%s",ft_strtrim(s1,s2));
+//     printf("%s",ft_strtrim("", "cdef"));
 // }

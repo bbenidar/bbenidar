@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:22:53 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/17 18:12:01 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/25 15:10:58 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,18 +21,20 @@ char	*ft_substr(char const *s, unsigned int start,
 
 	i = 0;
 	j = 0;
+	src = 0;
+	if (start >= ft_strlen(s))
+		return (ft_strdup(""));
 	if (!s)
 		return (NULL);
-	src = (char *)malloc(sizeof(char) * (len + 1));
+	if (len >= ft_strlen(s + start))
+		len = ft_strlen(s + start);
+		src = (char *)malloc(sizeof(char) * (len + 1));
 	if (!src)
 		return (0);
 	while (s[i])
 	{
 		if (i >= start && len > j)
-		{
-			src[j] = s[i];
-			j++;
-		}
+			src[j++] = s[i];
 		i++;
 	}
 	src[j] = 0;
