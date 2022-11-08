@@ -6,11 +6,10 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 13:19:49 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/25 15:10:00 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/11/02 14:38:20 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
 #include "libft.h"
 
 ///////////////scaning first of word///////////////
@@ -71,7 +70,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (ft_strdup(s1));
 	start = ft_start(s1, set);
 	end = ft_end(s1, set);
-	if (start == 0 && end == ft_strlen(s1) - 1)
+	if (start == 0 && end == ft_strlen(s1))
 		return (ft_strdup(s1));
 	if (end - start == 0)
 		return (ft_strdup(""));
@@ -84,9 +83,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	p[i] = 0;
 	return (p);
 }
-// int main()
-// {
-//     char s1[] = "brahimbenm";
-//     char s2[] = "bmr";
-//     printf("%s",ft_strtrim("", "cdef"));
-// }

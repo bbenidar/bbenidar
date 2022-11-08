@@ -6,7 +6,7 @@
 #    By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/09 14:46:36 by bbenidar          #+#    #+#              #
-#    Updated: 2022/10/26 21:22:37 by bbenidar         ###   ########.fr        #
+#    Updated: 2022/11/07 12:38:23 by bbenidar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,26 +36,22 @@ SRC =   ft_bzero.c    	 ft_strtrim.c		\
 SRC_B = ft_lstnew.c  	      		ft_lstlast.c	   \
 		ft_lstadd_front.c        	ft_lstadd_back.c   \
 		ft_lstsize.c	  			ft_lstdelone.c     \
-		ft_lstclear.c 				ft_lstiter.c       \
-		ft_lstmap.c                 
+		ft_lstclear.c 				ft_lstiter.c                        
 
 OBJ = ${SRC:.c=.o}
 
 OBJ_b = ${SRC_B:.c=.o}
 
-
-
-
 %.o : %.c libft.h
-	${CC} ${FLAGS} -c $< -o $@
+	${CC} ${FLAGS} -c $<
 	
-${NAME} : ${OBJ} ${OBJ_b}
-	ar rcs ${NAME} ${OBJ} ${OBJ_b}
+${NAME} : ${OBJ}
+	ar rc ${NAME} ${OBJ} 
 
 all: ${NAME}
 
-bonus: ${OBG_b} ${OBJ}
-		 @ar  rcs ${NAME} ${OBJ_b} ${OBJ}
+bonus: ${OBJ_b}
+		ar  rc ${NAME} ${OBJ_b}
 
 fclean : clean
 	rm -rf ${NAME}

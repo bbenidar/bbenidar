@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 12:22:47 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/26 21:22:10 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/11/01 23:13:31 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 //---------------------------------- HEADERS ------------------------------//
 # include <unistd.h>
 # include <stdlib.h> //using in malloc and size_t
-# include <unistd.h>
 //----------------------- ld struct node -------------------------------//
 typedef struct s_list
 {
@@ -68,6 +67,5 @@ void			ft_lstadd_back(t_list **lst, t_list *new);
 void			ft_lstdelone(t_list *lst, void (*del)(void*));
 void			ft_lstclear(t_list **lst, void (*del)(void*));
 void			ft_lstiter(t_list *lst, void (*f)(void *));
-t_list			*ft_lstmap(t_list *lst, void *(*f)(void *),
-void (*del)(void *));
+
 #endif

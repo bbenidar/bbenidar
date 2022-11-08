@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 11:20:14 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/24 11:08:06 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/31 17:09:32 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,9 +49,3 @@ int	ft_atoi(const char *str)
 	result *= sign;
 	return (result);
 }
-// int main()
-// {
-//     printf("%d\n",ft_atoi("29496755554554454545296"));
-//     printf("%d\n",atoi("-294967296"));
-//     printf("%d",atoi("-999999933333333399999"));
-// }

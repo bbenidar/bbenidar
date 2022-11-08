@@ -6,14 +6,13 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 12:17:51 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/24 11:21:29 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/30 16:30:42 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
-#include<stdio.h>
 
-int	ft_intlen(int n)
+static int	ft_intlen(int n)
 {
 	int	i;
 
@@ -36,7 +35,7 @@ int	ft_intlen(int n)
 	}
 }
 
-int	hadik(char *p, int n)
+static int	sign(char *p, int n)
 {
 	int	i;
 
@@ -67,7 +66,7 @@ char	*ft_itoa(int n)
 	if (!p)
 		return (0);
 	p[len] = '\0';
-	n = hadik(p, n);
+	n = sign(p, n);
 	while (n > 9)
 	{
 		p[len - 1] = (n % 10) + '0';

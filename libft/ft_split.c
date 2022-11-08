@@ -6,14 +6,14 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 14:46:05 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/25 20:57:23 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/11/01 15:35:42 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdio.h>
 
-static int	lklmat(char const *s, char c)
+static int	count_wrd(char const *s, char c)
 {
 	int	i;
 	int	j;
@@ -68,7 +68,7 @@ char	**ft_split(char const *s, char c)
 	i = 0;
 	if (!s)
 		return (0);
-	p = malloc(sizeof(char *) * (lklmat(s, c) + 1));
+	p = malloc(sizeof(char *) * (count_wrd(s, c) + 1));
 	if (!p)
 		return (0);
 	while (*s)

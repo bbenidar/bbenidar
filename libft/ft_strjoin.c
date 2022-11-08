@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 20:50:52 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/23 13:37:51 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/30 16:33:23 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	p[i] = '\0';
 	return (p);
 }
-// int main()
-// {
-//     char s1[] = "brahim ";
-//     char s2[] = "benidar";
-//     printf("%s",ft_strjoin(s1,s2));
-// }

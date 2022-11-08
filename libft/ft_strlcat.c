@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 14:25:07 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/10/26 15:18:50 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/10/31 19:18:33 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,12 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	size_t	dlen;
 	size_t	jlen;
 
-	if (!dst && !src)
-		return (0);
+	jlen = ft_strlen(src);
+	if (!dst && !dstsize)
+		return (jlen);
 	i = 0;
 	dlen = ft_strlen(dst);
 	j = dlen;
-	jlen = ft_strlen(src);
 	if (dstsize <= dlen)
 		return (dstsize + jlen);
 	while (src[i] && j + 1 < dstsize)
