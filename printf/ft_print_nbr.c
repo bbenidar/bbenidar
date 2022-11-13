@@ -1,72 +1,60 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*   ft_print_nbr.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/18 12:17:51 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/11/11 20:25:06 by bbenidar         ###   ########.fr       */
+/*   Created: 2022/11/11 16:12:38 by bbenidar          #+#    #+#             */
+/*   Updated: 2022/11/12 14:54:05 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static int	ft_intlen(int n)
+int	ft_putchar(char c)
 {
-	int	i;
-
-	i = 1;
-	if (n == -2147483648)
-		return (11);
-	else
-	{
-		if (n < 0)
-		{
-			n = n * -1;
-			i++;
-		}
-		while (n > 9)
-		{
-			n = n / 10;
-			i++;
-		}
-		return (i);
-	}
+	write(1, &c, 1);
+	return (1);
 }
 
-static int	sign(char *p, int n)
+void	ft_putstr(char *str)
 {
 	int	i;
 
 	i = 0;
-	if (n == -2147483648)
+	while (str[i])
 	{
-		p[i] = '-';
-		p[++i] = '2';
-		n = 147483648;
+		write(1, &str[i], 1);
+		i++;
 	}
-	if (n < 0)
-	{
-		p[i] = '-';
-		n = n * -1;
-	}
-	return (n);
 }
 
-char	*ft_itoa(int n)
+int	ft_intlen_uns(unsigned int n)
+{
+	int	i;
+
+	i = 1;
+	while (n > 9)
+	{
+		n = n / 10;
+		i++;
+	}
+	return (i);
+}
+
+char	*ft_itoa_uns(unsigned int n)
 {
 	char	*p;
 	int		i;
 	int		len;
 
 	i = 0;
-	len = ft_intlen(n);
+	len = ft_intlen_uns(n);
 	p = (char *)malloc(sizeof(*p) * (len + 1));
 	if (!p)
 		return (0);
 	p[len] = '\0';
-	n = sign(p, n);
 	while (n > 9)
 	{
 		p[len - 1] = (n % 10) + '0';
@@ -76,4 +64,21 @@ char	*ft_itoa(int n)
 	if (n <= 9)
 		p[len - 1] = n + '0';
 	return (p);
+}
+
+int	ft_printuns(unsigned int n)
+{
+	int		print_length;
+	char	*num;
+
+	print_length = 0;
+	if (n == 0)
+		print_length += write(1, "0", 1);
+	else
+	{
+		num = ft_itoa_uns(n);
+		print_length += ft_printstr(num);
+		free(num);
+	}
+	return (print_length);
 }

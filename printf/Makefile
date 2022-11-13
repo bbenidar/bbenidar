@@ -6,24 +6,24 @@
 #    By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/08 10:56:26 by bbenidar          #+#    #+#              #
-#    Updated: 2022/11/08 11:16:10 by bbenidar         ###   ########.fr        #
+#    Updated: 2022/11/11 16:24:23 by bbenidar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
 CC = cc
-FLAGS = -wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror
 
-SRC = {}
+SRC = ft_printf.c   ft_print_hex.c  ft_itoa.c  ft_print_ptr.c  ft_print_nbr.c
 
-OBG = ${SRC :.c=.o}
+OBJ = ${SRC:.c=.o}
 
 %.o : %.c ft_printf.h
 	${CC} ${FLAGS} -c $<
 
-${NAME} : ${OBG}
-	ar -rc ${NAME} ${OBG}
+${NAME} : ${OBJ}
+	ar -rc ${NAME} ${OBJ}
 
 all : ${NAME}
 
@@ -31,6 +31,6 @@ fclean : clean
 	rm -rf ${NAME}
 
 clean : 
-	rm -rf ${OBG}
+	rm -rf ${OBJ}
 
 re : fclean all
