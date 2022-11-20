@@ -3,11 +3,7 @@
   <img src="https://badge.mediaplus.ma/binary/bbenidar" alt="bbenidar's 42 stats" />
 <!--    <img src="https://media.giphy.com/media/hpF9R9M1PHN5e5liSx/giphy.gif" width="100"/> -->
 </div>
-
-  </div> 
----
-
-### 
+ </div> 
 <div id="header" align="center">
 <div id="badges">
   <a href = "https://www.linkedin.com/in/brahim-benidar/" ><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/> </a>
@@ -36,6 +32,8 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="linux" alt="linux" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
 </div>
+
+
 ---
 
 ### :fire: My Stats :
