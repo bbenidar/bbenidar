@@ -43,8 +43,16 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
 </div>
 
-
 ---
+###:hammer_and_wrench: project finiched 
+---
+<div id="header" align="center" >
+<img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2873096" alt="bbenidar's 42 ft_printf Score" />
+<img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2825519" alt="bbenidar's 42 Libft Score" />
+<img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2878827" alt="bbenidar's 42 get_next_line Score" />
+<img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2885675" alt="bbenidar's 42 Born2beroot Score" />
+</div>
+
 
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=bbenidar)](https://git.io/streak-stats)
