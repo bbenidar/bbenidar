@@ -47,9 +47,21 @@
 ###:hammer_and_wrench: project finiched 
 ---
 <div id="header" align="center" >
+   
+   _______________________________________________________________________________________________________________________________
+   ft_printf:
 <img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2873096" alt="bbenidar's 42 ft_printf Score" />
+   
+   _______________________________________________________________________________________________________________________________
+   ft_libft:
 <img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2825519" alt="bbenidar's 42 Libft Score" />
+   
+   _______________________________________________________________________________________________________________________________
+   get_next_line:
 <img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2878827" alt="bbenidar's 42 get_next_line Score" />
+   
+   _______________________________________________________________________________________________________________________________
+   Born2beroot:
 <img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2885675" alt="bbenidar's 42 Born2beroot Score" />
 </div>
 
