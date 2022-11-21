@@ -1,8 +1,8 @@
-<!--   <div id="header" align="center">
+   <div id="header" align="center">
   <div id="badges">
  <img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/stats?cursusId=21&coalitionId=76" alt="bbenidar's 42 stats" />
 </div>
- </div>  -->
+ </div> 
  
  
 
