@@ -50,19 +50,19 @@
    
    _______________________________________________________________________________________________________________________________
    ft_printf:
-<img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2873096" alt="bbenidar's 42 ft_printf Score" />
+<img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" alt="bbenidar's 42 ft_printf Score" />
    
    _______________________________________________________________________________________________________________________________
    ft_libft:
-<img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2825519" alt="bbenidar's 42 Libft Score" />
+<img src="https://media.giphy.com/media/2AkkbXTn2X2Sn7HLJB/giphy.gif" alt="bbenidar's 42 Libft Score" />
    
    _______________________________________________________________________________________________________________________________
    get_next_line:
-<img src="https://giphy.com/gifs/intra-42-project-succes-125-3ck0CjVQBAvwaJiKEL/tile" alt="bbenidar's 42 get_next_line Score" />
+<img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" alt="bbenidar's 42 get_next_line Score" />
    
    _______________________________________________________________________________________________________________________________
    Born2beroot:
-<img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2885675" alt="bbenidar's 42 Born2beroot Score" />
+<img src="https://media.giphy.com/media/dFSDDutkscTkp9bMo8/giphy.gif" alt="bbenidar's 42 Born2beroot Score" />
 </div>
 
 
