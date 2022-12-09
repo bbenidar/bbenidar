@@ -58,7 +58,7 @@
    
    _______________________________________________________________________________________________________________________________
    get_next_line:
-<img src="https://badge42.vercel.app/api/v2/clar213ut00950gmmpv9nkmho/project/2878827" alt="bbenidar's 42 get_next_line Score" />
+<img src="https://media.giphy.com/media/2AkkbXTn2X2Sn7HLJB/giphy.gif" alt="bbenidar's 42 get_next_line Score" />
    
    _______________________________________________________________________________________________________________________________
    Born2beroot:
