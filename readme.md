@@ -58,7 +58,7 @@
    
    _______________________________________________________________________________________________________________________________
    get_next_line:
-<img src="https://media.giphy.com/media/2AkkbXTn2X2Sn7HLJB/giphy.gif" alt="bbenidar's 42 get_next_line Score" />
+<img src="https://giphy.com/gifs/intra-42-project-succes-125-3ck0CjVQBAvwaJiKEL/tile" alt="bbenidar's 42 get_next_line Score" />
    
    _______________________________________________________________________________________________________________________________
    Born2beroot:
