@@ -1,3 +1,4 @@
+
    <div id="header" align="center">
   <div id="badges">
  <a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/binary/bbenidar" alt="bbenidar's 42 stats" /></a>
@@ -49,21 +50,22 @@
 <div id="header" align="center" >
    
    _______________________________________________________________________________________________________________________________
-   ft_printf:
-<img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" alt="bbenidar's 42 ft_printf Score" />
-   
+<!--    ft_printf:
+<div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
+<img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" width="200" 
+     height="50" alt="bbenidar's 42 ft_printf Score" />
+   </div>
+ -->
+  <p> ft_printf:    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   libft:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; get_next_line:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Born2beroot:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; so_long<p/>
+ <p float="left">
+  <img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" width="100" />
+  <img src="https://media.giphy.com/media/2AkkbXTn2X2Sn7HLJB/giphy.gif" width="100" /> 
+  <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
+  <img src="https://media.giphy.com/media/dFSDDutkscTkp9bMo8/giphy.gif" width="100" />
+  <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
+</p>
    _______________________________________________________________________________________________________________________________
-   ft_libft:
-<img src="https://media.giphy.com/media/2AkkbXTn2X2Sn7HLJB/giphy.gif" alt="bbenidar's 42 Libft Score" />
-   
-   _______________________________________________________________________________________________________________________________
-   get_next_line:
-<img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" alt="bbenidar's 42 get_next_line Score" />
-   
-   _______________________________________________________________________________________________________________________________
-   Born2beroot:
-<img src="https://media.giphy.com/media/dFSDDutkscTkp9bMo8/giphy.gif" alt="bbenidar's 42 Born2beroot Score" />
-</div>
+  
 
 
 ### :fire: My Stats :
