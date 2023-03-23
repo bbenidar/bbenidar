@@ -56,13 +56,14 @@
      height="50" alt="bbenidar's 42 ft_printf Score" />
    </div>
  -->
-  <p> ft_printf:    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   libft:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; get_next_line:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Born2beroot:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; so_long<p/>
+  <p> ft_printf:    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   libft:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; get_next_line:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Born2beroot:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; so_long  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; push swap<p/>
  <p float="left">
   <img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" width="100" />
   <img src="https://media.giphy.com/media/2AkkbXTn2X2Sn7HLJB/giphy.gif" width="100" /> 
   <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
   <img src="https://media.giphy.com/media/dFSDDutkscTkp9bMo8/giphy.gif" width="100" />
   <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
+  <img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" width="100" />
 </p>
    _______________________________________________________________________________________________________________________________
   
