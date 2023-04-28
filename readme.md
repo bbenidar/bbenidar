@@ -65,7 +65,10 @@
   <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
   <img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" width="100" />
 </p>
-   _______________________________________________________________________________________________________________________________
+    <p> minitalk :  <p/>
+ <p float="left">  
+  <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
+</p>
   
 
 
