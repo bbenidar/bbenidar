@@ -65,9 +65,12 @@
   <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
   <img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" width="100" />
 </p>
-    <p> minitalk :  <p/>
+    <p> minitalk :  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   philosopher: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   minishell: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   cub3d:<p/>
  <p float="left">  
   <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
+    <img src="https://media.giphy.com/media/3ck0CjVQBAvwaJiKEL/giphy.gif" width="100" />
+     <img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" width="100" />
+    <img src="https://media.giphy.com/media/dFSDDutkscTkp9bMo8/giphy.gif" width="100" />
 </p>
   
 
