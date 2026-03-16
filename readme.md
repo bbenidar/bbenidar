@@ -13,7 +13,7 @@
 <div id="header" align="center">
 <div id="badges">
   <a href = "https://www.linkedin.com/in/brahim-benidar/" ><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/> </a>
-  <a href = "https://www.facebook.com/ibrahim.benidar.3" ><img src="https://img.shields.io/badge/Facebook-blue?logo=facebook&logoColor=white&style=for-the-badge" alt="Youtube Badge"/> </a>
+  <a href = "https://www.facebook.com/ibrahim.benidar.3" ><img src="https://img.shields.io/badge/Facebook-blue?logo=facebook&logoColor=white&style=for-the-badge" alt="Facebook Badge"/> </a>
   <a href="https://twitter.com/bhm_beni" ><img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/> </a>
 </div>
 </div>
@@ -39,17 +39,17 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
 
   <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C"  alt="C" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original.svg" title="Dart" alt="Dart" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" title="Flutter" alt="Flutter" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" title="bash" alt="bash" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="linux" alt="linux" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
 </div>
 
 ---
-###: project finiched 
+### Projects finished
 ---
 <div id="header" align="center" >
    
@@ -76,9 +76,9 @@
      <img src="https://media.giphy.com/media/XnvsZKYROFLHXCc9jk/giphy.gif" width="100" />
     <img src="https://media.giphy.com/media/dFSDDutkscTkp9bMo8/giphy.gif" width="100" />
 </p>
-  
+</div>
 
 
 ### :fire: My Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=bbenidar)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=bbenidar)](https://git.io/streak-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bbenidar&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
